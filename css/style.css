@@ -26,6 +26,8 @@ body {
   
 }
 
+/* ГЛАВНАЯ */
+
 /* Главное меню */
 
 .visually-hidden {
@@ -268,4 +270,158 @@ li {
 .footer-copiright svg {
   width: 115px;
   height: 41px;
+}
+
+
+
+/* ПОИСК ОТЕЛЯ */
+
+/* Форма поиска */
+
+legend {
+  font-size: 16px;
+  line-height: 26px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.filter-option {
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb( 255, 255, 255 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.prise-form input{
+  font-size: 14px;
+  line-height: 21px;
+  color: rgb( 255, 255, 255 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.prise-form button {
+  font-size: 14px;
+  line-height: 21px;
+  color: rgb( 255, 255, 255 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+  width: 138px;
+  height: 36px;
+  background-image: none; 
+  background-color: transparent;
+  border: 2px solid rgb( 255, 255, 255 );
+
+}
+
+
+/* Результаты поиска */
+
+.searching-results {
+  font-size: 21px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.sorting {
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb( 0, 0, 0 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.sorting-by-price-item {
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb( 129, 179, 210 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.sorting-by-type-item {
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb( 202, 202, 202 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.sorting-by-rating-item {
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb( 202, 202, 202 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+
+/* Список отелей */
+
+.name a {
+  font-size: 21px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.catalog-item-tp {
+  font-size: 14px;
+  line-height: 21px;
+  color: rgb( 0, 0, 0 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.button-read-more {
+  font-size: 14px;
+  line-height: 21px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+  background-color: rgb( 129, 179, 210 );
+  width: 110px;
+  height: 27px;
+  
+}
+
+.button-book-it {
+  font-size: 14px;
+  line-height: 21px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+  background-color: rgb( 118, 99, 87 );
+  width: 142px;
+  height: 27px;
+}
+
+.ratihg {
+  font-size: 14px;
+  line-height: 21px;
+  color: rgb( 102, 102, 102 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+  background-color: rgb( 242, 242, 242 );
+  width: 142px;
+  height: 27px;
 }
