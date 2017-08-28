@@ -1,0 +1,271 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PTSans/PTS55F.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PTSans/PTS75F.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+body {
+  font-size: 14px;
+  line-height: 21px;
+  color: rgb( 0, 0, 0 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+  background: #ffffff url(../img/background-foto.jpg) no-repeat 50% 10%;
+  background-size: 1200px 771px; 
+  max-width: 1200px;
+  margin: 0px auto;
+  
+}
+
+/* Главное меню */
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.main-header-logo {
+  margin-left: 566px; 
+}
+
+li {
+  display: inline;
+}
+
+.site-navigation a {
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+/* Заставка */
+
+.inscription-welcome {
+  margin-left: 506px;
+  margin-top: 132px;
+  text-align: center;
+   
+}
+
+.inscription-to-the-gorgeous {
+  position: absolute;
+  margin-left: -184px;
+  margin-top: 188px;
+  
+}
+
+.strips {
+  position: relative;
+  margin-top: 23px;
+  margin-left: 472px;
+}
+
+.inscription-sedona {
+  margin-top: 70px;
+  margin-left: 371px;
+}
+
+.inscription-because {
+  margin-top: 58px;
+  margin-left: 452px;
+}
+
+/* Лозунг */
+
+.description-title h1 {
+  font-size: 21px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+  margin-top: 628px;
+  margin-left: 321px;
+}
+
+.description-reason {
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+/* Причины */
+
+.city {
+  background-color: rgb( 129, 179, 210 );
+}
+
+.blue-square h2 {
+  font-size: 21px;
+  line-height: 26px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.blue-square p { 
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb( 255, 255, 255 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.item-feature-text {
+  font-size: 21px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.item-feature-tagline {
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.reason ul {
+  background-color: rgb( 238, 238, 238 );
+}
+
+.item-reason-text {
+  font-size: 21px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.item-reason p {
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.bridge{
+  background-color: rgb( 129, 179, 210 );
+}
+
+/* Заинтересовались? */
+
+.question-text {
+  font-size: 30px;
+  line-height: 35px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase; 
+  text-align: center;
+ 
+}
+
+.question-offer {
+  font-size: 14px;
+  line-height: 30px;
+  color: rgb( 0, 0, 0 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.hotel-search {
+  background-color: rgb( 118, 99, 87 );
+  width: 568px;
+  height: 86px;
+  font-size: 21px;
+  line-height: 26px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.question form {
+  background-color: rgb( 255, 255, 255 );
+  width: 568px;
+  height: 395px;
+}
+
+.hotel-search-form label {
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.hotel-search-form input {
+   font-size: 14px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.to-find {
+  background-color: rgb( 129, 179, 210 );
+  width: 458px;
+  height: 58px;
+  font-size: 21px;
+  line-height: 26px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+/* Подвал */
+
+.footer-contacts {
+  font-size: 21px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.footer-copiright b {
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb( 0, 0, 0 );
+  font-weight: normal;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.footer-copiright svg {
+  width: 115px;
+  height: 41px;
+}
