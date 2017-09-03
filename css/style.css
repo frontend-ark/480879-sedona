@@ -1,34 +1,35 @@
 @font-face {
-  font-family: "PT Sans";
-  src: url("../fonts/PTSans/PTS55F.ttf") format("truetype");
-  font-style: normal;
+  font-family: "Conv_PTS55F";
+  src: url("fonts/PTS55F.eot");
+  src: local("☺"), url("fonts/PTS55F.woff") format("woff"), url("fonts/PTS55F.ttf") format("truetype"), url("fonts/PTS55F.svg") format("svg");
   font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "PT Sans";
-  src: url("../fonts/PTSans/PTS75F.ttf") format("truetype");
+  font-family: "Conv_PTS75F";
+  src: url("fonts/PTS75F.eot");
+  src: local("☺"), url("fonts/PTS75F.woff") format("woff"), url("fonts/PTS75F.ttf") format("truetype"), url("fonts/PTS75F.svg") format("svg");
+  font-weight: normal;
   font-style: normal;
-  font-weight: bold;
 }
+
 
 body {
   font-size: 14px;
   line-height: 21px;
   color: rgb( 0, 0, 0 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
-  background: #ffffff url(../img/background-foto.jpg) no-repeat 50% 10%;
-  background-size: 1200px 771px; 
-  max-width: 1200px;
-  margin: 0px auto;
-  
+
 }
 
 /* ГЛАВНАЯ */
 
 /* Главное меню */
+
+
 
 .visually-hidden {
   position: absolute;
@@ -39,7 +40,7 @@ body {
 }
 
 .main-header-logo {
-  margin-left: 566px; 
+  margin-left: 50%; 
 }
 
 li {
@@ -51,53 +52,34 @@ li {
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
-/* Заставка */
-
-.inscription-welcome {
-  margin-left: 506px;
-  margin-top: 132px;
-  text-align: center;
-   
-}
-
-.inscription-to-the-gorgeous {
-  position: absolute;
-  margin-left: -184px;
-  margin-top: 188px;
-  
-}
-
-.strips {
-  position: relative;
-  margin-top: 23px;
-  margin-left: 472px;
-}
-
-.inscription-sedona {
-  margin-top: 70px;
-  margin-left: 371px;
-}
-
-.inscription-because {
-  margin-top: 58px;
-  margin-left: 452px;
+.backgraund-foto {
+  display: block;
+  width: 1200px;
+  height: 508px;
+  background-color: #ffffff;
+  background-image: url(../img/background-foto.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: 1200px 508px; 
+  max-width: 1200px;
+  margin: 0px auto;
 }
 
 /* Лозунг */
 
-.description-title h1 {
+.description-title {
   font-size: 21px;
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
-  margin-top: 628px;
-  margin-left: 321px;
+  text-align: center;
+  margin-top: 58px;
 }
 
 .description-reason {
@@ -105,7 +87,7 @@ li {
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -120,7 +102,7 @@ li {
   line-height: 26px;
   color: rgb( 255, 255, 255 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -129,7 +111,7 @@ li {
   line-height: 26px;
   color: rgb( 255, 255, 255 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -138,7 +120,7 @@ li {
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -147,7 +129,7 @@ li {
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -160,7 +142,7 @@ li {
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -169,7 +151,7 @@ li {
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -184,7 +166,7 @@ li {
   line-height: 35px;
   color: rgb( 0, 0, 0 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase; 
   text-align: center;
  
@@ -195,7 +177,7 @@ li {
   line-height: 30px;
   color: rgb( 0, 0, 0 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -207,7 +189,7 @@ li {
   line-height: 26px;
   color: rgb( 255, 255, 255 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -222,16 +204,16 @@ li {
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
 .hotel-search-form input {
-   font-size: 14px;
+  font-size: 14px;
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -243,7 +225,7 @@ li {
   line-height: 26px;
   color: rgb( 255, 255, 255 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -254,7 +236,7 @@ li {
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -263,7 +245,7 @@ li {
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -276,6 +258,20 @@ li {
 
 /* ПОИСК ОТЕЛЯ */
 
+.catalog-foto {
+  display: block;
+  width: 1200px;
+  height: 508px;
+  background-color: #ffffff;
+  background-image: url(../img/catalog-background.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: 1200px 216px; 
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+
 /* Форма поиска */
 
 legend {
@@ -283,7 +279,7 @@ legend {
   line-height: 26px;
   color: rgb( 255, 255, 255 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -292,7 +288,7 @@ legend {
   line-height: 26px;
   color: rgb( 255, 255, 255 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -301,7 +297,7 @@ legend {
   line-height: 21px;
   color: rgb( 255, 255, 255 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -310,7 +306,7 @@ legend {
   line-height: 21px;
   color: rgb( 255, 255, 255 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
   width: 138px;
   height: 36px;
@@ -328,7 +324,7 @@ legend {
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -337,7 +333,7 @@ legend {
   line-height: 18px;
   color: rgb( 0, 0, 0 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -346,7 +342,7 @@ legend {
   line-height: 18px;
   color: rgb( 129, 179, 210 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -355,7 +351,7 @@ legend {
   line-height: 18px;
   color: rgb( 202, 202, 202 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -364,7 +360,7 @@ legend {
   line-height: 18px;
   color: rgb( 202, 202, 202 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -376,7 +372,7 @@ legend {
   line-height: 26px;
   color: rgb( 0, 0, 0 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -385,7 +381,7 @@ legend {
   line-height: 21px;
   color: rgb( 0, 0, 0 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -394,7 +390,7 @@ legend {
   line-height: 21px;
   color: rgb( 255, 255, 255 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
   background-color: rgb( 129, 179, 210 );
   width: 110px;
@@ -407,7 +403,7 @@ legend {
   line-height: 21px;
   color: rgb( 255, 255, 255 );
   font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
   background-color: rgb( 118, 99, 87 );
   width: 142px;
@@ -419,7 +415,7 @@ legend {
   line-height: 21px;
   color: rgb( 102, 102, 102 );
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
   background-color: rgb( 242, 242, 242 );
   width: 142px;
