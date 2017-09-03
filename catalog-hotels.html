@@ -22,7 +22,7 @@
 		</header>
 		<main class="container">
 			<section class="filters">
-				<h1 class="visually-hidden">Фильтр товаров</h1>
+				<h1 class="visually-hidden">Фильтр отелей:</h1>
 				<form class="filter" method="get" action="https://echo.htmlacademy.ru">
 					<fieldset>
 						<legend>Инфраструктура:</legend>
@@ -66,9 +66,12 @@
 					</fieldset>
 					<fieldset class="prise-form">
 						<legend>Стоимость в сутки (р):</legend>
-						<input class="price-min" type="text" name="сost-of-the-hotel-min" value="от 0">
-					 	<input class="price-max" type="text" name="сost-of-the-hotel-max" value="до 3000">
-						<input type="range" min="0" max="3000" step="2" value="2500">
+						<label class="visually-hidden" for="min">От 0</label>
+						<input id="min" class="price-min" type="text" name="сost-of-the-hotel-min" value="от 0">
+						<label class="visually-hidden" for="max">До 3000</label>
+					 	<input id="max" class="price-max" type="text" name="сost-of-the-hotel-max" value="до 3000">
+					 	<label class="visually-hidden" for="prise-range">Диапазон цен</label>
+						<input id="prise-range" type="range" min="0" max="3000" step="2" value="2500">
 						<button type="submit" class="filter-button button">Показать</button>
 					</fieldset>
 				</form>
