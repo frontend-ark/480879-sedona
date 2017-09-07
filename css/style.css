@@ -16,6 +16,9 @@
 
 
 body {
+  margin: 0;
+  padding: 0;
+
   font-size: 14px;
   line-height: 21px;
   color: rgb( 0, 0, 0 );
@@ -25,12 +28,6 @@ body {
 
 }
 
-/* ГЛАВНАЯ */
-
-/* Главное меню */
-
-
-
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -39,8 +36,12 @@ body {
   margin: -1px;
 }
 
-.main-header-logo {
-  margin-left: 50%; 
+/* ГЛАВНАЯ */
+
+/* Главное меню */
+
+a {
+  text-decoration: none;
 }
 
 li {
@@ -54,6 +55,18 @@ li {
   font-weight: bold;
   font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
+}
+
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:hover {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: #cacaca;
 }
 
 .backgraund-foto {
@@ -74,86 +87,86 @@ li {
 .description-title {
   font-size: 21px;
   line-height: 26px;
-  color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
-  text-transform: uppercase;
   text-align: center;
-  margin-top: 58px;
+  margin-top: 58px
 }
 
 .description-reason {
   font-size: 14px;
   line-height: 26px;
-  color: rgb( 0, 0, 0 );
-  font-weight: normal;
-  font-family: "PT Sans", "Arial", sans-serif;
-  text-transform: uppercase;
+  text-align: center;
+
 }
 
 /* Причины */
 
 .city {
   background-color: rgb( 129, 179, 210 );
+
 }
 
 .blue-square h2 {
   font-size: 21px;
-  line-height: 26px;
   color: rgb( 255, 255, 255 );
   font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
-  text-transform: uppercase;
+  text-align: center;
 }
 
 .blue-square p { 
-  font-size: 14px;
-  line-height: 26px;
   color: rgb( 255, 255, 255 );
   font-weight: normal;
-  font-family: "PT Sans", "Arial", sans-serif;
-  text-transform: uppercase;
+  text-align: center;
 }
+
 
 .item-feature-text {
   font-size: 21px;
-  line-height: 26px;
-  color: rgb( 0, 0, 0 );
+  line-height: 21px;
   font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
-  text-transform: uppercase;
 }
 
-.item-feature-tagline {
-  font-size: 14px;
-  line-height: 26px;
-  color: rgb( 0, 0, 0 );
-  font-weight: normal;
-  font-family: "PT Sans", "Arial", sans-serif;
-  text-transform: uppercase;
+.home::before {
+  content: "";
+  display: block; 
+  background-image: url(../img/sprite.png);
+  background-position: -28px -22px;
+  width: 75px;
+  height: 72px;
+  margin-bottom: 32px;
+}
+
+.food::before {
+  content: "";
+  display: block; 
+  background-image: url(../img/sprite.png);
+  background-position: -153px -23px;
+  width: 74px;
+  height: 70px;
+  margin-bottom: 33px;
+}
+
+.souvenirs::before {
+  content: "";
+  display: block; 
+  background-image: url(../img/sprite.png);
+  background-position: -278px -15px;
+  width: 64px;
+  height: 76px;
+  margin-bottom: 32px;
 }
 
 .reason ul {
   background-color: rgb( 238, 238, 238 );
+  text-align: center;
+
 }
 
 .item-reason-text {
   font-size: 21px;
-  line-height: 26px;
-  color: rgb( 0, 0, 0 );
   font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
-  text-transform: uppercase;
+
 }
 
-.item-reason p {
-  font-size: 14px;
-  line-height: 26px;
-  color: rgb( 0, 0, 0 );
-  font-weight: normal;
-  font-family: "PT Sans", "Arial", sans-serif;
-  text-transform: uppercase;
-}
 
 .bridge{
   background-color: rgb( 129, 179, 210 );
@@ -163,22 +176,15 @@ li {
 
 .question-text {
   font-size: 30px;
-  line-height: 35px;
-  color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
-  text-transform: uppercase; 
+  line-height: 36px;
+  font-weight: bold; 
   text-align: center;
  
 }
 
 .question-offer {
-  font-size: 14px;
-  line-height: 30px;
-  color: rgb( 0, 0, 0 );
-  font-weight: normal;
-  font-family: "PT Sans", "Arial", sans-serif;
-  text-transform: uppercase;
+  line-height: 24px;
+  text-align: center;
 }
 
 .hotel-search {
@@ -191,6 +197,20 @@ li {
   font-weight: bold;
   font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
+  border: none;
+}
+
+.hotel-search:focus {
+  background-color: rgb( 96, 78, 67 );
+}
+
+.hotel-search:hover {
+  background-color: rgb( 96, 78, 67 );
+}
+
+.hotel-search:active {
+  color: rgb( 146, 138, 133 );
+  background-color: rgb( 80, 62, 51 );
 }
 
 .question form {
@@ -215,6 +235,83 @@ li {
   font-weight: bold;
   font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
+  text-align: center;
+}
+
+input::-moz-placeholder { 
+  color: rgb( 0, 0, 0 ); 
+}
+
+input::-webkit-input-placeholder { 
+  color: rgb( 0, 0, 0 );
+   }
+
+.field:focus {
+  background-color: rgb( 255, 255, 255);
+  border: 2px solid rgb( 229, 229, 229);;
+}
+
+.field:hover {
+  background-color: rgb( 235, 235, 235 );
+}
+
+
+.text-field {
+  width: 346px;
+  height: 38px;
+  background-color: rgb( 242, 242, 242 );
+  border: none;
+  color: rgb( 0, 0, 0 );
+  background-image: url(../img/calendar.svg);
+  background-repeat: no-repeat;
+  background-position: 98% center;
+}
+
+.digits-field {
+  width: 38px;
+  height: 38px;
+  background-color: rgb( 242, 242, 242 );
+  border: none;
+}
+
+.more {
+  color: rgb( 169, 169, 169 );
+  width: 38px;
+  height: 38px;
+  background-color: rgb( 242, 242, 242 );
+  border: none;
+}
+
+.more:focus {
+  color: rgb( 0, 0, 0 );
+}
+
+.more:hover {
+  color: rgb( 0, 0, 0 );
+}
+
+.more:active {
+  color: rgb( 129, 179, 210 );
+}
+
+.less {
+  color: rgb( 169, 169, 169 );
+  width: 38px;
+  height: 38px;
+  background-color: rgb( 242, 242, 242 );
+  border: none;
+}
+
+.less:focus {
+  color: rgb( 0, 0, 0 );
+}
+
+.less:hover {
+  color: rgb( 0, 0, 0 );
+}
+
+.less:active {
+  color: rgb( 129, 179, 210 );
 }
 
 .to-find {
@@ -227,6 +324,20 @@ li {
   font-weight: bold;
   font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
+  border: none;
+}
+
+.to-find:focus {
+  background-color: rgb( 102, 158, 192 );
+}
+
+.to-find:hover {
+  background-color: rgb( 102, 158, 192 );
+}
+
+.to-find:active {
+  color: rgb( 148, 185, 210 );
+  background-color: rgb( 84, 150, 189 );
 }
 
 /* Подвал */
@@ -238,6 +349,11 @@ li {
   font-weight: bold;
   font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: rgb( 129, 179, 210 );
 }
 
 .footer-copiright b {
@@ -254,7 +370,21 @@ li {
   height: 41px;
 }
 
+.main-footer-logo-html {
+  display: inline-block;
+}
 
+.main-footer-logo-html:focus svg{
+ fill: #81b3d2;
+}
+
+.main-footer-logo-html:hover svg{
+  fill: #81b3d2;
+}
+
+.main-footer-logo-html:active svg {
+  fill: #bdbbbc;
+}
 
 /* ПОИСК ОТЕЛЯ */
 
